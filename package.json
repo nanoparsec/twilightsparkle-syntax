@@ -1,7 +1,7 @@
 {
   "name": "twilightsparkle-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A dark syntax theme for Atom inspired by My little Pony Twilightsparkle. The colors that are used are dark blue, light-turquoise, pink, purple and a nice green.",
   "keywords": [
     "syntax",

@@ -1,0 +1,15 @@
+{
+  "name": "twilightsparkle-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dark syntax theme for Atom inspired by My little Pony Twilightsparkle. The colors that are used are dark blue, light-turquoise, pink, purple and a nice green.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/nerdbabe/twilightsparkle-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

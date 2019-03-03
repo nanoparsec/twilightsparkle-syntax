@@ -110,7 +110,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 }
 
-.vsyntax--variable {
+.syntax--variable {
   color: @purple;
 
   &.syntax--interpolation {
@@ -120,6 +120,10 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   &.syntax--parameter.syntax--function {
     color: @syntax-text-color;
   }
+  
+  &.syntax--scss {
+    color: @light-green;
+  }
 }
 
 .syntax--invalid.syntax--illegal {
@@ -128,7 +132,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 }
 
 .syntax--string {
-  color: @green;
+  color: @light-purple;
 
 
   &.syntax--regexp {
@@ -214,7 +218,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 
   &.syntax--name.syntax--tag {
-    color: @violet;
+    color: @blue;
     text-decoration: underline;
   }
 
@@ -229,7 +233,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 .syntax--meta {
   &.syntax--class {
-    color: @purple;
+    color: @light-turquoise;
   }
 
   &.lsyntax--ink {
@@ -301,7 +305,38 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 }
 
+.syntax--source.syntax--html,
+.syntax--storage.syntax--type.syntax--function {
+  color: @blue;
+}
+
 atom-text-editor[mini] .scroll-view,
 atom-text-editor .scroll-view {
   padding-left: 1px;
+}
+
+.syntax--support.syntax--constant.syntax--property-value.syntax--css,
+.syntax--constant.syntax--numeric.syntax--css,
+.syntax--keyword.syntax--other.syntax--unit.syntax--px.syntax--css,
+.syntax--keyword.syntax--other.syntax--unit.syntax--percentage.syntax--css,
+.syntax--keyword.syntax--other.syntax--unit.syntax--rem.syntax--css {
+  color: @blue;
+}
+
+.syntax--entity.syntax--name.syntax--tag.syntax--reference.syntax--scss,
+.syntax--entity.syntax--name.syntax--tag.syntax--wildcard.syntax--scss,
+.syntax--meta.syntax--property-list.syntax--scss{
+  color: @raspberry;
+}
+
+.syntax--support.syntax--type.syntax--property-name.syntax--css {
+  color: @purple;
+}
+
+.syntax--source.syntax--js {
+  color: @light-violet;
+}
+
+.syntax--keyword.syntax--operator.syntax--js {
+  color: @turquoise;
 }
